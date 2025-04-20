@@ -5,7 +5,7 @@ class Coordinate
 
 	public:
 		Coordinate(int x,int y);
-		
+		Coordinate& operator-();
 		int getX();
 		int getY();
 	private:
